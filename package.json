@@ -1,0 +1,41 @@
+{
+  "author": {
+    "name": "Jon Alvart",
+    "email": "code.alvart@gmail.com"
+  },
+  "bugs": "https://github.com/alvart/proact-chat/issues",
+  "dependencies": {
+    "create-react-class": "^15.6.2",
+    "express": "^4.16.2",
+    "purescript": "^0.11.6",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "ws": "^3.3.3"
+  },
+  "description": "A chat application with websocket communication.",
+  "devDependencies": {
+    "bower": "^1.8.2",
+    "create-html": "^4.1.0",
+    "pulp": "^12.0.1",
+    "purescript-psa": "^0.5.1",
+    "rimraf": "^2.6.2"
+  },
+  "keywords": [
+    "chat",
+    "demo",
+    "purescript",
+    "react",
+    "lenses",
+    "proact",
+    "event-driven",
+    "virtual-dom"
+  ],
+  "homepage": "https://github.com/alvart/proact-chat.git",
+  "license": "MIT",
+  "name": "proact-chat",
+  "repository": "https://github.com/alvart/proact-chat.git",
+  "scripts": {
+    "start": "pulp browserify --to dist/index.js && create-html -t \"Chat\" -c \"https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css\" -c \"https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css\" -c \"https://codepen.io/jon4lvart/pen/qpmpWw.css\" -s \"index.js\" -b \"<div id=\\\"app\\\"></div>\" -o dist/index.html && node server.js"
+  },
+  "version": "1.0.0"
+}

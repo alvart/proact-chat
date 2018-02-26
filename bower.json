@@ -1,0 +1,23 @@
+{
+  "author": "Jon Alvart <code.alvart@gmail.com>",
+  "dependencies": {
+    "purescript-dom": "^4.0.0",
+    "purescript-io": "^5.0.0",
+    "purescript-proact": "^3.0.1",
+    "purescript-profunctor-lenses": "^3.0.0",
+    "purescript-react": "^5.0.0",
+    "purescript-react-dom": "^5.0.0"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "test"
+  ],
+  "license": "MIT",
+  "name": "proact-chat",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alvart/proact-chat.git"
+  }
+}
